@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,KAAK,CAAC;EACJ,MAAM,EAAE,MAAM;EACd,KAAK,EAAE,OAAO;EACd,SAAS,EAAE,OAAO;EAClB,cAAc,EAAE,MAAM;EACtB,aAAa,EAAE,cAAc;CAC9B",
+    "sources": [
+        "CommentItem.module.scss"
+    ],
+    "names": [],
+    "file": "CommentItem.module.css"
+}

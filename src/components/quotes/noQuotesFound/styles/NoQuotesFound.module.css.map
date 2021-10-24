@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,SAAS,CAAC;EACR,MAAM,EAAE,KAAK;EACb,MAAM,EAAE,IAAI;EACZ,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,MAAM;EACnB,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,WAAW,EAAE,MAAM;CAOpB;;AAfD,AAUE,SAVO,CAUP,CAAC,CAAC;EACA,KAAK,EAAE,OAAO;EACd,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,IAAI;CAClB",
+    "sources": [
+        "NoQuotesFound.module.scss"
+    ],
+    "names": [],
+    "file": "NoQuotesFound.module.css"
+}
