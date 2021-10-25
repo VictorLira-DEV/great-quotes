@@ -1,9 +1,5 @@
 import classes from './styles/QuoteItem.module.css';
-
-interface IQuoteItem {
-  text: string,
-  author: string
-}
+import { Link } from 'react-router-dom'
 
 const QuoteItem = (props: any) => {
   return (
@@ -14,9 +10,12 @@ const QuoteItem = (props: any) => {
         </blockquote>
         <figcaption>{props.author}</figcaption>
       </figure>
-      <a className='btn'>
+      {/* <a href="#" className='btn'>
         View Fullscreen
-      </a>
+      </a> */}
+      <Link to={`/quotes/${props.id}`} className="btn"> 
+        View Fullscreen
+      </Link>
     </li>
   );
 };
