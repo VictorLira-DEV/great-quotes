@@ -8,15 +8,22 @@ const MainNavigation = () => {
             <nav className={classes.nav}>
                 <ul>
                     <li>
-                        <NavLink to="/quotes" activeClassName={classes.active}>All Quotes </NavLink> 
+                        <NavLink to="/quotes" activeClassName={classes.active}>
+                            All Quotes
+                        </NavLink>
                     </li>
                     <li>
-                        <NavLink to="/new-quote" activeClassName={classes.active}>Add a Quote </NavLink> 
+                        <NavLink
+                            to="/new-quote"
+                            activeClassName={classes.active}
+                        >
+                            Add a Quote
+                        </NavLink>
                     </li>
                 </ul>
             </nav>
         </header>
-    )
-}
+    );
+};
 
-export default MainNavigation
+export default MainNavigation;

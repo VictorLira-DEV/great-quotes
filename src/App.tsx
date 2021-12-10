@@ -1,9 +1,9 @@
-import { Route, Switch, Redirect } from "react-router-dom";
-import AllQuotes from "./pages/allQuotes/AllQuotes";
-import NewQuote from "./pages/newQuote/NewQuote";
-import QuoteDetail from "./pages/quoteDetail/QuoteDetail";
-import Layoult from "./components/layout/layoult/Layout";
-import NotFound from "./pages/notFound/NotFound";
+import { Route, Switch, Redirect } from 'react-router-dom';
+import AllQuotes from './pages/allQuotes/AllQuotes';
+import NewQuote from './pages/newQuote/NewQuote';
+import QuoteDetail from './pages/quoteDetail/QuoteDetail';
+import Layoult from './components/layout/layoult/Layout';
+import NotFound from './pages/notFound/NotFound';
 
 function App() {
     return (
@@ -16,7 +16,7 @@ function App() {
                 <Route path="/quotes" exact>
                     <AllQuotes />
                 </Route>
-
+                {/* ":quoteId" is the key to access with useParams() */}
                 <Route path="/quotes/:quoteId">
                     <QuoteDetail />
                 </Route>
@@ -24,6 +24,7 @@ function App() {
                 <Route path="/new-quote">
                     <NewQuote />
                 </Route>
+                {/* unknown route */}
                 <Route path="*">
                     <NotFound />
                 </Route>

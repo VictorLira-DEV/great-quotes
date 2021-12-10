@@ -1,14 +1,12 @@
 import classes from './styles/NoQuotesFound.module.css';
 
 const NoQuotesFound = () => {
-  return (
-    <div className={classes.noquotes}>
-      <p>No quotes found!</p>
-      <a className='btn'>
-        Add a Quote
-      </a>
-    </div>
-  );
+    return (
+        <div className={classes.noquotes}>
+            <p>No quotes found!</p>
+            <a className="btn">Add a Quote</a>
+        </div>
+    );
 };
 
 export default NoQuotesFound;

@@ -3,18 +3,16 @@ import MainNavigation from '../mainNavigation/MainNavigation';
 import { Fragment, ReactNode } from 'react';
 
 interface ILayoult {
-    children: ReactNode
+    children: ReactNode;
 }
 
-const Layoult  = (props: ILayoult) => {
+const Layoult = (props: ILayoult) => {
     return (
         <Fragment>
             <MainNavigation />
-            <main className={classes.main} >
-                {props.children}
-            </main>
+            <main className={classes.main}>{props.children}</main>
         </Fragment>
-    )
-}
+    );
+};
 
-export default Layoult
+export default Layoult;
