@@ -16,7 +16,7 @@ function App() {
                 <Route path="/quotes" exact>
                     <AllQuotes />
                 </Route>
-                {/* ":quoteId" is the key to access with useParams() */}
+                {/* this ":quoteId" is the key to access with useParams() */}
                 <Route path="/quotes/:quoteId">
                     <QuoteDetail />
                 </Route>
