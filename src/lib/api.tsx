@@ -57,8 +57,9 @@ export async function addQuote(quoteData: any) {
 }
 
 export async function addComment(requestData: any) {
+    console.log(requestData)
     const response = await fetch(
-        `${FIREBASE_DOMAIN}/quotes/${requestData}.json`,
+        `${FIREBASE_DOMAIN}/comments/${requestData.quoteId}.json`,
         {
             method: 'POST',
             body: JSON.stringify(requestData.commentData),
