@@ -2,7 +2,7 @@ import React, { useRef, useState } from 'react';
 import Card from '../../UI/card/Card';
 import LoadingSpinner from '../../UI/loadingSpinner/LoadingSpinner';
 import classes from './styles/QuoteForm.module.css';
-import { Prompt } from 'react-router-dom';
+// import {  } from 'react-router-dom';
 
 interface IQuoteForm {
     isLoading?: boolean;
@@ -36,12 +36,12 @@ const QuoteForm = (props: IQuoteForm) => {
     return (
         <React.Fragment>
             {/* when the user accidentally leaves the page */}
-            <Prompt
+            {/* <Prompt
                 when={isEntering}
                 message={location =>
                     'Are you sure you want to leave? All your entered data will be lost!'
                 }
-            />
+            /> */}
             <Card>
                 <form
                     onFocus={formFocusHandler}
